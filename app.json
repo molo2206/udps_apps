@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "udps_app",
+    "slug": "udps_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img8.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/img8.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img8.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.molo2023.udps_app"
+    },
+    "web": {
+      "favicon": "./assets/img8.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "96b69f24-58a8-4d21-9a1b-685a49582ec3"
+      }
+    }
+  }
+}
